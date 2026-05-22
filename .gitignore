@@ -1,0 +1,20 @@
+# Python 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE 配置（保留 .vscode 共享配置）
+.idea/
+*.swp
+*.swo
+
+# 模型缓存（标签文件保留，模型权重不提交）
+model_cache/*.pth
+model_cache/*.pt
+
+# 系统文件
+Thumbs.db
+.DS_Store
